@@ -28,11 +28,10 @@ $darkPink: #da627d;
 }
 
 body {
-  text-align: center;
   color: $black;
   background-color: $white;
   font-family: 'Andika New Basic', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   line-height: 24px;
@@ -75,7 +74,7 @@ html {
 
 }
 
-
+//https://wallpapercave.com/pink-flowers-aesthetic-desktop-wallpapers
 .header {
   background: url("https://wallpapercave.com/wp/wp6890396.jpg") fixed ;
   background-size: cover;  color: $white;
@@ -91,9 +90,6 @@ h4 {
   color: #023c40;
 }
 
-.me {
-  margin-top: 15px;
-}
 
 .socialMedia {
   font-size: 40px;
@@ -122,10 +118,27 @@ h4 {
   background-color: $pink;
 }
 
+.mainBody{
+  margin-top: 100px;
+}
+
+.myPhoto {
+  border: 5px solid $black;
+}
+
+#aboutMe {
+background-color: $white;
+border: 5px solid $pink;
+}
+
+#endingStatement {
+  text-align: center;
+}
+
 .aside {
   background-color: $pink;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   color: $black;
+  border: 5px solid $black;
   font-size: 14px;
   padding: 15px;
   text-align: center;
@@ -137,6 +150,10 @@ h4 {
   font-size: 12px;
   padding: 15px;
   text-align: center;
+}
+
+.gallery {
+  margin-top: 100px;
 }
 
 
